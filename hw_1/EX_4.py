@@ -4,7 +4,7 @@
 user = int(input('Введите целое положительное число: '))
 biggest_number = 0
 
-while user > 1:
+while user >= 1:
     last_number = int(user % 10)
     if last_number == 9:
         print('Самая большая цифра в вашем числе: 9')

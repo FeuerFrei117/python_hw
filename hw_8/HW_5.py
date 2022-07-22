@@ -19,7 +19,7 @@ class ComplexNumber:
 one = ComplexNumber(complex(1, 2))
 print(one.number)
 
-two = ComplexNumber(complex(3, 4))
+two = ComplexNumber(complex(2, 3))
 print(two.number)
 
 print(one + two)
